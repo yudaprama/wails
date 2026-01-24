@@ -1,4 +1,4 @@
-//wails:include stmt.js
+//wails:include stmt.ts
 package sqlite
 
 import (
@@ -27,7 +27,7 @@ type Config struct {
 //wails:inject     QueryContext as Query
 //wails:inject };
 //wails:inject
-//wails:inject import { Stmt } from "./stmt.js";
+//wails:inject import { Stmt } from "./stmt.ts";
 //wails:inject
 //wails:inject **:/**
 //wails:inject **: * Prepare creates a prepared statement for later queries or executions.
